@@ -1,0 +1,63 @@
+body{
+    padding: 20px;
+    margin: 4px solid black;
+    background-color: grey;
+    font-size: large;
+}
+.flex-container{
+    display: flex;
+    padding: 10px;
+    margin:5px ;
+    flex-direction: row;
+    height:100px;
+    width: 400px;
+    
+}
+a{
+    text-decoration: none;
+     color: #000; 
+}
+#Nav{
+    display:flex ;
+    flex-direction:row;
+    justify-content:space-evenly;
+    background-color: white;
+    color: antiquewhite;
+    font-size: 26px;
+    text-decoration: none;height: 40px;}
+    a{ display: flex;flex-direction: row;justify-content: space-around; text-decoration: none;}
+    a{ display: flex;flex-direction: row;justify-content: space-around; text-decoration: none;}
+    #Alt{
+        background-color: rgb(202, 202, 230);
+            display: grid;
+            grid-template-columns:50% 50%;
+            grid-template-rows: 30% 30% 30% 30%;
+            padding: 0%;
+        }
+        #one{
+            grid-row-start:1 ;
+            grid-column-start: 1;
+        }
+        #two{
+            grid-row-start: 1;
+            grid-column-start: 2;
+        }
+        #three{
+            grid-row-start: 2;
+            grid-column-start:1 ;
+        }
+        #four{
+            grid-row-start: 2;
+            grid-column-start: 2;
+        }
+        #five{
+            background-color: rgb(202, 202, 230);
+            text-align: center;
+        }
+        
+        .miss{
+            background-color: grey;
+        }
+        .vol{
+            background-color: grey;
+        }
